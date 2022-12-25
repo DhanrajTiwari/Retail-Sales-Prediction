@@ -41,7 +41,16 @@ CompetitionOpenSince[Month/Year] - gives the approximate year and month of the t
 
 Promo - indicates whether a store is running a promo on that day
 
+Promo2 - Promo2 is a continuing and consecutive promotion for some stores: 0 = store is not participating, 1 = store is participating
+
+Promo2Since[Year/Week] - describes the year and calendar week when the store started participating in Promo2
+
+PromoInterval - describes the consecutive intervals Promo2 is started, naming the months the promotion is started anew. E.g. "Feb,May,Aug,Nov" means each round starts in February, May, August, November of any given year for that store
+
+Methodology
+I'll be performing the sales forecast primarily through two methods:
+
+Regression: Linear Regression and Random Forest Regression
 
 
-
-Here we tried to extract a better model from our given dataset and made a well accurate model by using linear regression technique .
+Here we tried to extract a better model from our given dataset and made a well accurate model by using linear regression technique. And Achieved RMSE(82%), Ridge(93%), and Lasso(93%).
