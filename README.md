@@ -9,6 +9,7 @@ The task is to forecast the "Sales" column for the test set. And some stores in 
 ## **Methodology**
 
 At first handling all the null values and cleaning the data set for Exploratory Data Analysis.
+
 I am performing the sales forecast primarily through two methods:
 Regression: Linear Regression and Random Forest Regression.
 
